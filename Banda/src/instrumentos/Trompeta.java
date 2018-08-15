@@ -22,10 +22,5 @@ public class Trompeta extends Instrumento{
     public void tocar() {
         System.out.println("Tocando Trompeta");
     }
-
-    @Override
-    public void nombrar() {
-        setNombre("Trompeta");
-    }
     
 }
