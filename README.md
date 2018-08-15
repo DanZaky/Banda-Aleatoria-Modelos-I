@@ -3,7 +3,7 @@ Banda Aleatoria
 
 Daniel Arturo Sáenz Quintero 20141020060
 
-Fabian Franco
+Fabian Alexander Franco Quiroga 20152020048
 
 El programa que se encuentra en este repositorio consta de la generación aleatoria de musicos con sus respectivos instrumentos los cuales primero afianan o alistan dependiendo del instrumento y luego los tocan
 
