@@ -22,10 +22,5 @@ public class Bajo extends Instrumento{
     public void tocar() {
         System.out.println("Tocando Bajo");
     }
-
-    @Override
-    public void nombrar() {
-        setNombre("Bajo");
-    }
     
 }
