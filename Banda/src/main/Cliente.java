@@ -23,12 +23,13 @@ public class Cliente {
         Banda organizacion = new Banda();
         organizacion.crearBanda();
         
-        ArrayList<Interprete> musico = organizacion.getBanda();
+        ArrayList<Interprete> interprete = organizacion.getBanda();
         int i = 1;
-        for (Interprete next : musico) {
+        for (Interprete next : interprete) {
             next.mostrarInterprete(i);
             i++;
         }
+
     }    
 
     
