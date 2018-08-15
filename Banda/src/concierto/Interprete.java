@@ -5,6 +5,8 @@
  */
 package concierto;
 
+import instrumentos.Instrumento;
+
 /**
  *
  * @author Estudiantes

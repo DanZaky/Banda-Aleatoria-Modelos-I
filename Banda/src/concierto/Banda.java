@@ -5,6 +5,7 @@
  */
 package concierto;
 
+import instrumentos.Instrumento;
 import instrumentos.*;
 import java.util.ArrayList;
 import java.util.Random;
@@ -25,7 +26,7 @@ public class Banda {
 
         Random aleatorio = new Random();
 
-        for (int i = 0; i < (aleatorio.nextInt(11) + 10); i++) {
+        for (int i = 0; i < (aleatorio.nextInt(15) + 10); i++) {
 
             Interprete interprete = new Interprete();
             interprete.setMyInstrumento(darInstrumento(aleatorio.nextInt(7)));
