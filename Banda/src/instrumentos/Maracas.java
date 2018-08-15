@@ -22,10 +22,5 @@ public class Maracas extends Instrumento{
     public void tocar() {
         System.out.println("Tocando Maracas");
     }
-
-    @Override
-    public void nombrar() {
-        setNombre("Maracas");
-    }
     
 }
