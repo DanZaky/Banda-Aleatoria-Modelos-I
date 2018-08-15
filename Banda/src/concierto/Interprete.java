@@ -12,19 +12,9 @@ package concierto;
 public class Interprete {
     
     private Instrumento obj_Instrumento;
-    private final String id;
-
-    public Interprete(String id) {
-        this.id = id;
-    }
 
     public void setMyInstrumento(Instrumento obj_Instrumento) {
         this.obj_Instrumento = obj_Instrumento;
-    }
-    
-    public void nombrarInstrumento(Instrumento obj_Instrumento) {
-        obj_Instrumento.nombrar();
-        System.out.println("* instrumento: " + obj_Instrumento.getNombre());
     }
 
     public void afinarInstrumento(Instrumento obj_Instrumento) {
@@ -37,8 +27,6 @@ public class Interprete {
 
     public void mostrarInterprete(int i) {
         System.out.println("\nInterprete N° " + i);
-        System.out.println("* id del interprete: " + id);
-        nombrarInstrumento(obj_Instrumento);
         afinarInstrumento(obj_Instrumento);
         tocarInstrumento(obj_Instrumento);
     }
