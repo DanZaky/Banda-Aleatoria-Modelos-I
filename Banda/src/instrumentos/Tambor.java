@@ -22,10 +22,5 @@ public class Tambor extends Instrumento{
     public void tocar() {
         System.out.println("Tocando Tambor");
     }
-
-    @Override
-    public void nombrar() {
-        setNombre("Tambor");
-    }
     
 }
