@@ -22,10 +22,4 @@ public class Flauta extends Instrumento{
     public void tocar() {
         System.out.println("Tocando Flauta");
     }
-
-    @Override
-    public void nombrar() {
-        setNombre("Flauta");
-    }
-    
 }
